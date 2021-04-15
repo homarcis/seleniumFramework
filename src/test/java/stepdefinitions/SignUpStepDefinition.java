@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pageobjects.SignUpServices;
 import pageobjects.SingUpPageObject;
+import pageobjects.SingUpPageObject;
 import util.HookDriver;
 import util.RandomNumberGenerator;
 
