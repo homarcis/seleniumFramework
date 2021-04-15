@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: CucumberTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 6.527 sec <<< FAILURE!
+Given Client wants to have an account(Scenario: client sing up successfully)  Time elapsed: 0.005 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Belgium
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'DESKHOM', ip: '192.168.100.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:277)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:180)
+	at pageobjects.SignUpServices.selectCountry(SignUpServices.java:46)
+	at stepdefinitions.SignUpStepDefinition.client_wants_to_have_an_account(SignUpStepDefinition.java:26)
+	at ?.Given Client wants to have an account(signup.feature:4)
+
+Scenario: client sing up successfully  Time elapsed: 0.007 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Belgium
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'DESKHOM', ip: '192.168.100.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:277)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:180)
+	at pageobjects.SignUpServices.selectCountry(SignUpServices.java:46)
+	at stepdefinitions.SignUpStepDefinition.client_wants_to_have_an_account(SignUpStepDefinition.java:26)
+	at ?.Given Client wants to have an account(signup.feature:4)
+
