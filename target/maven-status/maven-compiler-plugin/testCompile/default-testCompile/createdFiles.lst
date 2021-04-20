@@ -1,3 +1,4 @@
+conf\DriverConfig.class
 pageobjects\SignUpServices.class
 util\RandomNumberGenerator.class
 stepdefinitions\SignUpStepDefinition.class

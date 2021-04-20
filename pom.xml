@@ -13,6 +13,7 @@
         <maven.compiler.target>8</maven.compiler.target>
         <cucumber.version>1.2.5</cucumber.version>
         <selenium.version>3.141.5</selenium.version>
+        <spring.version>1.2.5</spring.version>
     </properties>
 
     <dependencies>
@@ -31,7 +32,32 @@
             <artifactId>selenium-java</artifactId>
             <version>${selenium.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.20</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-spring</artifactId>
+            <version>${cucumber.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>4.3.26.RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>4.3.26.RELEASE</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
+
+
 
 </project>
