@@ -1,7 +1,6 @@
-package pageobjects;
+package com.mesaj.app.pageobjects;
 
 import lombok.Getter;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,12 +10,12 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Getter
-public class SingUpPageObject {
+public class SingUpPageObject extends PageBase {
 
 
     @Autowired
     public SingUpPageObject(WebDriver driver){
-       // PageFactory.initElements(driver, this);
+      super(driver);
 
     }
     // Elementos del Page Object : 1 .- representacion de elementos en pagina

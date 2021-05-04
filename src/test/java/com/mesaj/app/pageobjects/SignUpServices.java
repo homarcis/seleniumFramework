@@ -1,7 +1,9 @@
-package pageobjects;
+package com.mesaj.app.pageobjects;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -13,13 +15,13 @@ public class SignUpServices {
     @Autowired
     private  SingUpPageObject singUpPageObject;
 
+
+    @Autowired
     private WebDriver driver;
 
     @Autowired
-    public SignUpServices( WebDriver driver) {
-        this.driver = driver;
-       // singUpPageObject = new SingUpPageObject(driver);
-    }
+    WebDriverWait wait;
+
 
 
     // Elementos del Page Object : 2 .- Servicios que provee la pagina
@@ -29,6 +31,7 @@ public class SignUpServices {
     }
 
     public void writeFirstName(String firstName){
+        this.wait.until(ExpectedConditions.visibilityOf(this.singUpPageObject.getFirstNameTextbox()));
         this.singUpPageObject.getFirstNameTextbox().sendKeys(firstName);
     }
 

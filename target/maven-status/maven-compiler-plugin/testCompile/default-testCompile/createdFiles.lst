@@ -1,7 +1,9 @@
-conf\DriverConfig.class
-pageobjects\SignUpServices.class
-util\RandomNumberGenerator.class
-stepdefinitions\SignUpStepDefinition.class
-pageobjects\SingUpPageObject.class
-util\HookDriver.class
+com\mesaj\app\util\RandomNumberGenerator.class
+com\mesaj\app\pageobjects\SingUpPageObject.class
+com\mesaj\app\stepdefinitions\SignUpStepDefinition.class
+com\mesaj\app\pageobjects\PageBase.class
+com\mesaj\app\pageobjects\SignUpServices.class
+com\mesaj\app\enums\Browser.class
+com\mesaj\app\util\driver\DriverFactory.class
+com\mesaj\app\conf\DriverConfig.class
 CucumberTest.class
