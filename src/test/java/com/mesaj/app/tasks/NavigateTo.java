@@ -14,6 +14,6 @@ public class NavigateTo {
     private String url;
 
     public void signUpPage(){
-        this.webDriver.get(url);
+        this.webDriver.get("http://demo.automationtesting.in/Register.html");
     }
 }

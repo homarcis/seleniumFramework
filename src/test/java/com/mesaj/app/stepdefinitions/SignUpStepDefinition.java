@@ -1,5 +1,6 @@
 package com.mesaj.app.stepdefinitions;
 
+import com.mesaj.app.builders.data.UserBuilder;
 import com.mesaj.app.conf.DriverConfig;
 import com.mesaj.app.models.User;
 import com.mesaj.app.tasks.NavigateTo;
@@ -31,7 +32,23 @@ public class SignUpStepDefinition {
 
     @When("^he send required information to get the account$")
     public void he_send_required_information_to_get_the_account() {
-        signUp.withInfo(User.builder().build());
+        signUp.withInfo(
+                UserBuilder
+                .anUser()
+                .but()
+                .withoutEmail()
+                .withoutPhone()
+                .build()
+        );
+
+        try
+        {
+            Thread.sleep(9000);
+        }
+        catch(InterruptedException e)
+        {
+            // this part is executed when an exception (in this example InterruptedException) occurs
+        }
 
     }
 

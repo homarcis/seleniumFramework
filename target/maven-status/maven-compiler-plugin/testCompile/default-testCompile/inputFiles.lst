@@ -1,9 +1,14 @@
 C:\Users\LENOVO\IdeaProjects\selenium-frameworkConSpring\src\test\java\com\mesaj\app\enums\Browser.java
-C:\Users\LENOVO\IdeaProjects\selenium-frameworkConSpring\src\test\java\com\mesaj\app\pageobjects\PageBase.java
 C:\Users\LENOVO\IdeaProjects\selenium-frameworkConSpring\src\test\java\CucumberTest.java
-C:\Users\LENOVO\IdeaProjects\selenium-frameworkConSpring\src\test\java\com\mesaj\app\conf\DriverConfig.java
-C:\Users\LENOVO\IdeaProjects\selenium-frameworkConSpring\src\test\java\com\mesaj\app\stepdefinitions\SignUpStepDefinition.java
+C:\Users\LENOVO\IdeaProjects\selenium-frameworkConSpring\src\test\java\com\mesaj\app\enums\Gender.java
 C:\Users\LENOVO\IdeaProjects\selenium-frameworkConSpring\src\test\java\com\mesaj\app\util\RandomNumberGenerator.java
 C:\Users\LENOVO\IdeaProjects\selenium-frameworkConSpring\src\test\java\com\mesaj\app\util\driver\DriverFactory.java
+C:\Users\LENOVO\IdeaProjects\selenium-frameworkConSpring\src\test\java\com\mesaj\app\models\User.java
 C:\Users\LENOVO\IdeaProjects\selenium-frameworkConSpring\src\test\java\com\mesaj\app\pageobjects\SignUpServices.java
+C:\Users\LENOVO\IdeaProjects\selenium-frameworkConSpring\src\test\java\com\mesaj\app\pageobjects\PageBase.java
+C:\Users\LENOVO\IdeaProjects\selenium-frameworkConSpring\src\test\java\com\mesaj\app\tasks\NavigateTo.java
+C:\Users\LENOVO\IdeaProjects\selenium-frameworkConSpring\src\test\java\com\mesaj\app\conf\DriverConfig.java
+C:\Users\LENOVO\IdeaProjects\selenium-frameworkConSpring\src\test\java\com\mesaj\app\stepdefinitions\SignUpStepDefinition.java
+C:\Users\LENOVO\IdeaProjects\selenium-frameworkConSpring\src\test\java\com\mesaj\app\tasks\UserSignUp.java
+C:\Users\LENOVO\IdeaProjects\selenium-frameworkConSpring\src\test\java\com\mesaj\app\builders\data\UserBuilder.java
 C:\Users\LENOVO\IdeaProjects\selenium-frameworkConSpring\src\test\java\com\mesaj\app\pageobjects\SingUpPageObject.java

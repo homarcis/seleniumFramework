@@ -27,7 +27,7 @@ public class UserSignUp {
         signUp.selectMale();
         signUp.selectCountry(user.getCountry());
         signUp.selectBirthday(user.getBirthDay());
-        signUp.selectBirthMonth(user.getBirthMonth();
+        signUp.selectBirthMonth(user.getBirthMonth());
         signUp.selectBirthYear(user.getBirthYear());
         signUp.writePhone(RandomNumberGenerator.get());
         signUp.writePassword(user.getPassword());
